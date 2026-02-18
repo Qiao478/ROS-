@@ -18,3 +18,11 @@ colcon build --packages-select 功能包名
 4.执行
 ros2 run 功能包 可执行程序
 
+5.二进制安装功能包
+sudo apt install ros-ROS2版本代号-功能包名称
+根据关键字查找所需功能包：apt search ros-ROS2版本代号-* | grep -i 关键字
+
+6.源码安装
+git clone 仓库地址
+
+
