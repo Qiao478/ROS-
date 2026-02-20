@@ -25,4 +25,7 @@ sudo apt install ros-ROS2版本代号-功能包名称
 6.源码安装
 git clone 仓库地址
 
+7.列出 cpp01_topic 包中所有已安装的可执行文件：
+ros2 pkg executables cpp01_topic
+
 
